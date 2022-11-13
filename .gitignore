@@ -1,14 +1,19 @@
 .gradle
+build/
 /build/
 
-# Ignore Gradle GUI config
-gradle-app.setting
+# IDE stuff
+.idea/
+.settings/
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+#MCreator workspace
+.mcreator/
 
-# Cache of project
-.gradletasknamecache
+# Run files
+run/
+
+# MacOS system files
+.DS_STORE
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
